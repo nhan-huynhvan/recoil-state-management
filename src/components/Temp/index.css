@@ -1,0 +1,13 @@
+.temp {
+  margin: 18px 0;
+  font-size: 14px;
+  color: #212529;
+}
+
+.temp span {
+  margin: 0 3px;
+}
+
+.temp .min {
+  font-weight: 700;
+}

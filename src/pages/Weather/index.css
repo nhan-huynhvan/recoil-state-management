@@ -1,0 +1,19 @@
+a:hover {
+  text-decoration: none;
+}
+
+.city {
+  display: block;
+  position: absolute;
+  top: 100px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #fff;
+  font-size: 30px;
+}
+
+@media (max-width: 1399px) {
+  .city {
+    display: none;
+  }
+}
