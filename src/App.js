@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { RecoilRoot } from "recoil";
 
 import Weather from "./pages/Weather";
@@ -11,9 +11,9 @@ const App = () => {
       <div className="home">
         <SearchBar />
         <div className="weather-container pt-3 pb-3">
-          <React.Suspense fallback={<div className="loading">Loading...</div>}>
+          <Suspense fallback={<div className="loading">Loading...</div>}>
             <Weather />
-          </React.Suspense>
+          </Suspense>
         </div>
       </div>
     </RecoilRoot>
